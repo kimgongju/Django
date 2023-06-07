@@ -1,0 +1,56 @@
+<request version='1.0'>
+    <header>
+        <office>AdvisorsChoiceInsSvc</office>
+        <user>bkoplan</user>
+        <password>Insurance01</password>
+        <KeepSession/>
+    </header>
+    <search pagesize="2000">
+        <object>
+            <Agent>
+                <BusinessRecord/>
+
+                <AgencyName/>
+                <DoingBusAs/>
+
+
+                <Contact>
+                    <Person>
+                        <JobTitle/>
+                    </Person>
+                </Contact>
+
+                <HireDate/>
+                <OfficeCode/>
+                <Code/>
+
+                <CaseManagerID>
+                    <UserID/>
+                    <FullName/>
+                    <UserRole/>
+                    <UserProfile>
+                        <EMail/>
+                    </UserProfile>
+                </CaseManagerID>
+
+                <Supervisor>
+                    <EmployerName/>
+                    <LastName/>
+                    <FirstName/>
+                    <Name/>
+                    <FirstLastName/>
+                    <FirstMiddleLastName/>
+                    <FullName/>
+                </Supervisor>
+
+                <BrokerDealer/>
+                
+                <MktManager/>
+                <RegionCode/>
+                <Status/>
+
+                
+            </Agent>
+        </object>
+    </search>
+</request>

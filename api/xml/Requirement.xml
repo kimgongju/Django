@@ -1,0 +1,59 @@
+<request version='1.0'>
+    <header>
+        <office>AdvisorsChoiceInsSvc</office>
+        <user>bkoplan</user>
+        <password>Insurance01</password>
+        <KeepSession/>
+    </header>
+    <search pagesize="2000">
+        <object>
+            <Requirement>
+                <AcordReqCode/>
+                <AdvisorVU/>
+                <CompletedDate/>
+                <CreatedOn/>
+                <Description/>
+                <EOStatusDate/>
+                <EOStatusDetails/>
+                <ElectronicReply/>
+                <ElectronicesOrderStatus/>
+                <ExpiredDate/>
+                <FollowUpDate/>
+                <HasNotes/>
+                <ModifiedOn/>
+                <Priority/>
+                <ProcessedBy/>
+                <ProviderRequirementID/>
+                <Remarks/>
+                <ReqStatusText/>
+                <ReqTypeText/>
+                <RequirementSubType/>
+                <RequirementType/>
+                <SourceOfDataType/>
+                <Status/>
+                <StatusDate/>
+                <StatusProcessedBy/>
+                <SystemKey/>
+                <UnderReqType/>
+                <UniqueID/>
+                <ContactID/>
+                <Contact>
+                    <FullName/>
+                    <LastName/>
+                    <FirstName/>
+                </Contact>
+                <ImageID/>
+                <PolicyID/>
+                <UserID/>
+            </Requirement>
+        </object>
+        <!-- <condition>
+            <expr prop='Contact.LastName' op='starts'>
+                <v>Lloyd</v>
+            </expr>
+            <expr prop='Contact.FirstName' op='starts'>
+                <v>Kenny</v>
+            </expr>
+        </condition> -->
+    </search>
+</request>

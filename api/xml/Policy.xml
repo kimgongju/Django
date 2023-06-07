@@ -1,0 +1,48 @@
+<request version='1.0'>
+    <header>
+        <office>AdvisorsChoiceInsSvc</office>
+        <user>bkoplan</user>
+        <password>Insurance01</password>
+        <KeepSession/>
+    </header>
+    <search pagesize="2000">
+        <object>
+            <Policy>
+            <!-- Policy.60667.15 -->
+                <CreatedOn />
+                <ModifiedOn />
+                <Description />
+                <CarrierName />
+                <Contact>
+                    <EmployerName/>
+                    <LastName/>
+                    <FirstName/>
+                    <Name/>
+                    <FirstLastName/>
+                    <FirstMiddleLastName/>
+                    <FullName/>
+                </Contact>
+                <ContactID />
+                <Duration />
+                <Name />
+                <!--<PolicyInfo />-->
+                <PolicyNumber />
+                <PolicyType />
+                <PolicyStatusText />
+                <PolicyFee />
+                <PortfolioName />
+                <StageText />
+                <LumpSum />
+                <Product>
+                    <Name />
+                    <Price />
+                    <DisplayCode />
+                    <DisplayName />
+                    <ProductTypeText />
+                    <Purpose />
+                </Product>
+                <PrimaryAdvisorID />
+            </Policy>
+        </object>
+    </search>
+</request>

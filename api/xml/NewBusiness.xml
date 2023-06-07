@@ -1,0 +1,35 @@
+<request version='1.0'>
+    <header>
+        <office>AdvisorsChoiceInsSvc</office>
+        <user>bkoplan</user>
+        <password>Insurance01</password>
+        <KeepSession/>
+    </header>
+    <search pagesize="2000">
+        <object>
+            <NewBusiness>
+                <ALLRequirementsIn/>
+                <AppSigned/>
+                <Approved/>
+                <AsOfDate/>
+                <Delivered/>
+                <Inforce/>
+                <Issued/>
+                <ContactID/>
+                <Contact>
+                    <FullName/>
+                    <LastName/>
+                    <FirstName/>
+                </Contact>
+            </NewBusiness>
+        </object>
+        <!-- <condition>
+            <expr prop='Contact.LastName' op='starts'>
+                <v>Lloyd</v>
+            </expr>
+            <expr prop='Contact.FirstName' op='starts'>
+                <v>Kenny</v>
+            </expr>
+        </condition> -->
+    </search>
+</request>

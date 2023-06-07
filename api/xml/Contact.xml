@@ -1,0 +1,85 @@
+<request version='1.0'>
+    <header>
+        <office>AdvisorsChoiceInsSvc</office>
+        <user>bkoplan</user>
+        <password>Insurance01</password>
+        <KeepSession/>
+    </header>
+    <search pagesize="50">
+        <object>
+            <Contact>
+                <CreatedOn/>
+                <ModifiedOn/>
+                <Name/>
+                <LastName/>
+                <FirstName/>
+                <FullName/>
+                <Greeting/>
+                <Type/>
+                <ContactSubType/>
+                <CallsMade/>
+                <Title/>
+                
+                <PreferredAddress>
+                    <AddressTypeText/>
+                    <City/>
+                    <Country/>
+                    <Latitude/>
+                    <Longitude/>
+                    <Line1/>
+                    <Line2/>
+                    <Line3/>
+                    <Line4/>
+                    <State/>
+                    <Postal/>
+                    <State/>
+                    <MovedIn/>
+                </PreferredAddress>
+                <ResidenceAddress>
+                    <AddressTypeText/>
+                    <City/>
+                    <Country/>
+                    <Latitude/>
+                    <Longitude/>
+                    <Line1/>
+                    <Line2/>
+                    <Line3/>
+                    <Line4/>
+                    <State/>
+                    <Postal/>
+                    <State/>
+                    <MovedIn/>
+                </ResidenceAddress>
+
+                <PreferredPhone>
+                    <PhoneTypeText/>
+                    <AreaCode/>
+                    <BestTime/>
+                    <CountryCode/>
+                    <DNC/>
+                    <Number/>
+                    <PhoneNumber/>
+                </PreferredPhone>
+                <ResidencePhone>
+                    <PhoneTypeText/>
+                    <AreaCode/>
+                    <BestTime/>
+                    <CountryCode/>
+                    <DNC/>
+                    <Number/>
+                    <PhoneNumber/>
+                </ResidencePhone>
+                <Websites/>
+                <!-- PreferredWebAddress -->
+            </Contact>
+        </object>
+        <condition>
+            <expr prop='Contact.LastName' op='starts'>
+                <v>Lloyd</v>
+            </expr>
+            <expr prop='Contact.FirstName' op='starts'>
+                <v>Kenny</v>
+            </expr>
+        </condition>
+    </search>
+</request>
